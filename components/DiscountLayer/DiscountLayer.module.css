@@ -1,0 +1,41 @@
+.layout{
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: var(--discountLayerHeight);
+    background-color: var(--discountLayerColor);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background: linear-gradient(270deg, #7069bc, #ccbdff);
+    background-size: 400% 400%;
+    -webkit-animation: bgFade 26s ease infinite;
+    animation: bgFade 10s ease infinite;
+}
+.line{
+    font-family: 'LuxiaDisplay';
+    text-transform: uppercase;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 2.5px;
+    font-size: .9em;
+    text-align: center;
+}
+
+.layout{
+    pointer-events: none;
+}
+
+
+@-webkit-keyframes bgFade {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes bgFade {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}

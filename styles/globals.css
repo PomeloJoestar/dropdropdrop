@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'LuxiaDisplay';
+  src: url(../assets/fonts/LuxiaDisplay.otf);
+}
+
+@font-face {
+  font-family: 'LuxiaRegular';
+  src: url(../assets/fonts/LuxiaRegular.otf);
+}
+
+
+*{
+  --discountLayerHeight: 2.7em;
+  --navbarHeight: 4em;
+  --bgColor: white;
+  --mainColor: #7069bc;
+  --black: #232323;
+  --discountLayerColor: #CCBDFF;
+  font-family: 'LuxiaRegular', sans-serif;
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  text-decoration: none;
+}
