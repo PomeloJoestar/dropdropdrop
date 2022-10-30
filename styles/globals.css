@@ -8,6 +8,11 @@
   src: url(../assets/fonts/LuxiaRegular.otf);
 }
 
+@media screen and (min-width: 768px) {
+  body{
+    display: none;
+  }
+}
 
 *{
   --discountLayerHeight: 2.7em;
