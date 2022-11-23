@@ -18,9 +18,9 @@ const Cart = (props) => {
     return(
         <div className={`fixed inset-y-0 w-full ${props.state? "right-0" : "-right-full"} transition-all flex box-border py-10 px-6 bg-white max-w-screen-md`}>
             <span className='absolute inset-x-0 top-0 box-border p-2 flex justify-between items-center shadow-sm'>
-                <svg className='basis-1/4 h-7 sm:h-8 md:h-9 w-7 sm:w-8 md:w-9 relative cursor-pointer' onClick={() => props.setState(false)} fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="48px" height="48px"><path d="M 4.9902344 3.9902344 A 1.0001 1.0001 0 0 0 4.2929688 5.7070312 L 10.585938 12 L 4.2929688 18.292969 A 1.0001 1.0001 0 1 0 5.7070312 19.707031 L 12 13.414062 L 18.292969 19.707031 A 1.0001 1.0001 0 1 0 19.707031 18.292969 L 13.414062 12 L 19.707031 5.7070312 A 1.0001 1.0001 0 0 0 18.980469 3.9902344 A 1.0001 1.0001 0 0 0 18.292969 4.2929688 L 12 10.585938 L 5.7070312 4.2929688 A 1.0001 1.0001 0 0 0 4.9902344 3.9902344 z"/></svg>
-                <span className='capitalize text-2xl basis1/2'>votre panier</span>
-                <span className='basis-1/4'></span>
+                <svg className='basis-1/4 h-7 sm:h-8 md:h-9 w-7 sm:w-8 md:w-9 relative cursor-pointer basis-1/6' onClick={() => props.setState(false)} fill="#000000" xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 24 24" width="48px" height="48px"><path d="M 4.9902344 3.9902344 A 1.0001 1.0001 0 0 0 4.2929688 5.7070312 L 10.585938 12 L 4.2929688 18.292969 A 1.0001 1.0001 0 1 0 5.7070312 19.707031 L 12 13.414062 L 18.292969 19.707031 A 1.0001 1.0001 0 1 0 19.707031 18.292969 L 13.414062 12 L 19.707031 5.7070312 A 1.0001 1.0001 0 0 0 18.980469 3.9902344 A 1.0001 1.0001 0 0 0 18.292969 4.2929688 L 12 10.585938 L 5.7070312 4.2929688 A 1.0001 1.0001 0 0 0 4.9902344 3.9902344 z"/></svg>
+                <span className='capitalize text-2xl text-center cursor-default basis-4/6'>votre panier</span>
+                <span className='basis-1/6'></span>
             </span>
 
 
