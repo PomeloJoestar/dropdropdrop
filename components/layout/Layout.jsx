@@ -1,15 +1,16 @@
 import React from 'react'
-import {Navbar, Footer} from '../'
-import DiscountLayer from '../DiscountLayer/DiscountLayer'
-
+import {Navbar, Footer, DiscountLayer} from '../'
+import { Toaster } from "react-hot-toast";
 function Layout({children}) {
 
 
   return (
     <>
-    <DiscountLayer/>
-    <Navbar/>
-    {children}
+      <DiscountLayer/>
+      <Navbar/>
+      {children}
+      <Footer/>
+      <Toaster />
     </>
   )
 }

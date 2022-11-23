@@ -1,18 +1,6 @@
-@font-face {
-  font-family: 'LuxiaDisplay';
-  src: url(../assets/fonts/LuxiaDisplay.otf);
-}
-
-@font-face {
-  font-family: 'LuxiaRegular';
-  src: url(../assets/fonts/LuxiaRegular.otf);
-}
-
-@media screen and (min-width: 768px) {
-  body{
-    display: none;
-  }
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *{
   --discountLayerHeight: 2.7em;
@@ -21,9 +9,12 @@
   --mainColor: #7069bc;
   --black: #232323;
   --discountLayerColor: #CCBDFF;
-  font-family: 'LuxiaRegular', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
   padding: 0;
   margin: 0;
   font-size: 16px;
   text-decoration: none;
+  box-sizing: border-box;
+  @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 }

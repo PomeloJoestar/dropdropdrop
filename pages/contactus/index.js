@@ -1,16 +1,10 @@
-import {Contact} from '../../components'
+import {Travaux} from '../../components'
 import Head from 'next/head'
 
 const Index = () => {
 
     return (
-        <>
-            <Head>
-                <title>Nous Contacter</title>
-            </Head>
-
-            <Contact/>
-        </>
+        <Travaux label="Nous Contacter"/>
     )
 }
 

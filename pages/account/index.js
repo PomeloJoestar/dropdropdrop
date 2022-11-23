@@ -1,15 +1,10 @@
-import {Account} from '../../components'
+import {Travaux} from '../../components'
 import Head from 'next/head'
 
 const Index = () => {
 
     return (
-        <>
-            <Head>
-                <title>Account</title>
-            </Head>
-            <Account/>
-        </>
+        <Travaux label="Votre Compte"/>
     )
 }
 

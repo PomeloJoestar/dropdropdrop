@@ -22,16 +22,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/noeni/Documents/GitHub/dropdropdrop&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "javascript.nodejs.core.library.configured.version": "16.15.0",
+    "javascript.nodejs.core.library.typings.version": "16.18.3",
+    "last_opened_file_path": "C:/Users/noeni/Documents/GitHub/dropdropdrop",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\noeni\Documents\GitHub\dropdropdrop" />
@@ -50,7 +53,16 @@
       <option name="presentableId" value="Default" />
       <updated>1667163836329</updated>
       <workItem from="1667163838435" duration="163000" />
-      <workItem from="1667164010623" duration="7591000" />
+      <workItem from="1667164010623" duration="8932000" />
+      <workItem from="1667435970225" duration="3123000" />
+      <workItem from="1667498953843" duration="2667000" />
+      <workItem from="1667528974732" duration="2380000" />
+      <workItem from="1667710722389" duration="692000" />
+      <workItem from="1669048666038" duration="1373000" />
+      <workItem from="1669055426816" duration="492000" />
+      <workItem from="1669126671310" duration="1162000" />
+      <workItem from="1669155401061" duration="485000" />
+      <workItem from="1669155903115" duration="10337000" />
     </task>
     <servers />
   </component>

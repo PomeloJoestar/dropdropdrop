@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import styles from './DiscountLayer.module.css'
 
 function DiscountLayer() {
 
@@ -18,8 +17,8 @@ function DiscountLayer() {
     });
 
       return (
-        <div className={styles.layout}>
-            <span className={styles.line}>{label}</span>
+        <div className='flex fixed inset-x-0 top-0 h-12 bg-violet-500 items-center z-10 justify-center'>
+            <span className='font-bold uppercase text-white tracking-wider text-center text-sm px-4'>{label}</span>
         </div>
       )
 }
